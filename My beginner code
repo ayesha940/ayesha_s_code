@@ -1,0 +1,79 @@
+#operation in python
+
+#comparison operation
+a = 4
+b = 5
+
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # True
+print(a < b)    # False
+print(a >= b)   # True
+print(a <= b)   # False
+
+a=int(input("enyer your first numer"))
+b=int(input("enter your second number"))
+
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # True
+print(a < b)    # False
+print(a >= b)   # True
+print(a <= b)   # False
+
+#logical operators
+a = 5
+b = 10
+if a < b and b < 20:
+    print("true")
+    
+#assignment operator
+
+a=6
+a*=4
+print (a)   
+
+a//=5
+print(a)
+
+a%=3
+print(a)
+
+z="python"
+print(z)
+
+f=35
+c=(f-32)/1.8
+print(c)
+
+#take inpur from user and then apply addition
+
+a=int(input("enter first number "))
+b=int(input("enter second number"))
+print(a+b)
+
+mass=4
+height=3
+bmi=mass/height**2
+print(bmi)
+
+#not operation
+
+x=int(False)
+print(x)
+
+x=int(True)
+print(x)
+
+#typecasting in python
+
+a="ayesha"
+b="iqra"
+print(a+b)
+
+a=str("5")
+print(a)
+
+a=list("123")
+print(a)
+
