@@ -77,3 +77,94 @@ print(a)
 a=list("123")
 print(a)
 
+#strings in python
+
+name='ayesha'
+askim='she said,"i want to go with u"'
+askim1='she said,"i want to go withyou'
+askim2="she said,she wants to go with me"
+print(name)
+print(askim)
+print(askim1)
+print(askim2)
+
+#multiline string
+
+apple="""he said,"i want to go there",
+but apples were rotten,
+so he cannot eat."""
+print(apple)
+
+#accessing elements from the string
+
+name="mairatahir"
+print(name[5])
+print(name[7])
+
+#length of a string
+
+name="ayeshatahir"
+print(len(name))
+print("ayeshatahir is a",len(name),"character name")
+
+#string slicing
+
+vehical="parado"
+print(len(vehical))
+print(vehical[:5])
+print(vehical[2:5])
+print(vehical[:])
+print(vehical[4:])
+word="elephant"
+print(word[4:7])
+
+word="amazing"
+print(word[0:5])
+
+word="programing"
+print(word[2:8])
+
+#negitive index slicig
+
+name="harry"
+print(name[-4:-2])
+
+word="hellopython"
+print(word[-9:-4])
+
+#jump slicing
+
+word="Mango is good"
+print(len(word))
+print(word[0:13:2])
+
+word="pythonrocks"
+print(len(word))
+print(word[2:11:2])
+
+word="pythonrocks"
+print(len(word))
+print(word[1:11:2])
+
+word="python"
+print(word[::2])
+
+x="brilliant"
+print(x[::-2])
+
+word="ilovepython"
+print(word[1:5])
+
+#concatenation
+
+word="beautiful"
+print(word[1:4])
+print(word[5:6])
+print(word[7:8])
+vowels=word[1:4]+word[5:6]+word[7:8]
+print(vowels)
+print(a)
+
+a=list("123")
+print(a)
+
