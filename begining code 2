@@ -1,0 +1,80 @@
+#if else elif in python:
+
+x=15
+if x<10:
+    print("numbewr is less than 10")
+elif x<20:
+    print("number is between 10 and 19")
+else:
+    print("number is greater or more")   
+
+age=18
+if age==15:
+    print("you are not elligible for this job interview")
+elif age<18:
+    print("you are also not elligible for this job interview")
+elif age>=18:
+    print("congratulations you are elligible for job interview")
+else:
+    print("eligibility critera is 18 r above")
+            
+mood="angry"
+if mood=="happy":
+    print("spread good vibes")
+elif mood=="sad":
+    print("hugs for you")
+elif mood=="angry":
+    print("take a deep breath")
+else:
+    print("something mysterious is going on")    
+
+#python string operations 10 methods
+lower()
+text="MY Name is Ayesha"
+print(text.lower())
+
+#upper()
+text="Reading NOVEL is my favourite HOBBY"
+print(text.upper())
+
+#find()
+text="python programing"
+print(text.find("thon"))
+print(text.find("favourite"))
+
+#replace()
+str="My name is ayesha"
+print(str.replace("ayesha","Iqra"))
+
+#split()
+text="apple banana cherry mango watermelon"
+print(text.split())
+text="apple,banana,cherry,mango,watermelon"
+print(text.split(","))
+
+#capitalize()
+str="python programing"
+print(str.capitalize())
+
+#center()
+text="python"
+print(text.center(10,"-"))
+
+word="mango is tasty"
+print(word.center(20,"#"))
+
+#endswith()
+text="ayesha"
+print(text.endswith("a"))
+print(text.endswith("h"))
+
+#index()
+str="i love python"
+print(str.index("pyt"))
+print(str.index("java"))    #value error found
+
+#count()
+text='banana'
+print(text.count("a"))
+print(text.count("n"))
+print(text.count("na"))
