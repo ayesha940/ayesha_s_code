@@ -1,3 +1,169 @@
+#operation in python
+
+#comparison operation
+a = 4
+b = 5
+
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # True
+print(a < b)    # False
+print(a >= b)   # True
+print(a <= b)   # False
+
+a=int(input("enyer your first numer"))
+b=int(input("enter your second number"))
+
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # True
+print(a < b)    # False
+print(a >= b)   # True
+print(a <= b)   # False
+
+#logical operators
+a = 5
+b = 10
+if a < b and b < 20:
+    print("true")
+    
+#assignment operator
+
+a=6
+a*=4
+print (a)   
+
+a//=5
+print(a)
+
+a%=3
+print(a)
+
+z="python"
+print(z)
+
+f=35
+c=(f-32)/1.8
+print(c)
+
+#take inpur from user and then apply addition
+
+a=int(input("enter first number "))
+b=int(input("enter second number"))
+print(a+b)
+
+mass=4
+height=3
+bmi=mass/height**2
+print(bmi)
+
+#not operation
+
+x=int(False)
+print(x)
+
+x=int(True)
+print(x)
+
+#typecasting in python
+
+a="ayesha"
+b="iqra"
+print(a+b)
+
+a=str("5")
+print(a)
+
+a=list("123")
+print(a)
+
+#strings in python
+
+name='ayesha'
+askim='she said,"i want to go with u"'
+askim1='she said,"i want to go withyou'
+askim2="she said,she wants to go with me"
+print(name)
+print(askim)
+print(askim1)
+print(askim2)
+
+#multiline string
+
+apple="""he said,"i want to go there",
+but apples were rotten,
+so he cannot eat."""
+print(apple)
+
+#accessing elements from the string
+
+name="mairatahir"
+print(name[5])
+print(name[7])
+
+#length of a string
+
+name="ayeshatahir"
+print(len(name))
+print("ayeshatahir is a",len(name),"character name")
+
+#string slicing
+
+vehical="parado"
+print(len(vehical))
+print(vehical[:5])
+print(vehical[2:5])
+print(vehical[:])
+print(vehical[4:])
+word="elephant"
+print(word[4:7])
+
+word="amazing"
+print(word[0:5])
+
+word="programing"
+print(word[2:8])
+
+#negitive index slicig
+
+name="harry"
+print(name[-4:-2])
+
+word="hellopython"
+print(word[-9:-4])
+
+#jump slicing
+
+word="Mango is good"
+print(len(word))
+print(word[0:13:2])
+
+word="pythonrocks"
+print(len(word))
+print(word[2:11:2])
+
+word="pythonrocks"
+print(len(word))
+print(word[1:11:2])
+
+word="python"
+print(word[::2])
+
+x="brilliant"
+print(x[::-2])
+
+word="ilovepython"
+print(word[1:5])
+
+#concatenation
+
+word="beautiful"
+print(word[1:4])
+print(word[5:6])
+print(word[7:8])
+vowels=word[1:4]+word[5:6]+word[7:8]
+print(vowels)
+
 #if else elif in python:
 
 x=15
