@@ -73,6 +73,79 @@ str="i love python"
 print(str.index("pyt"))
 print(str.index("java"))    #value error found
 
+#DIFFERENCE between find() and index()
+
+ str="my python"
+ print(str.find("py"))
+ print(str.find("love"))
+
+ print(str.index("tho"))
+ print(str.index("ayesha"))
+
+#isalnum()
+ text="abc123 11abc"
+ print(text.isalnum()) 
+ text="abc 123" 
+ print(text.isalnum()) 
+
+#isalpha()
+ text="abcd"
+ print(text.isalpha())
+ text="abcs123"
+ print(text.isalpha())
+ text="abc abc" 
+ print(text.isalpha())
+
+#islower()
+ text='hello python'
+ print(text.islower())
+ text="Hello Pyhon"
+ print(text.islower())
+
+#isupper()
+ text='Hello Python'
+ print(text.isupper())
+ text='HELLO PYTHON'
+ print(text.isupper())
+
+#istitle()
+ text='Hello Python'
+ print(text.istitle())
+ text='hello python'
+ print(text.istitle())
+
+#SWAPCASE()
+ text="hello python"
+ print(text.swapcase())
+
+#isprintable()
+print("Hello".isprintable())  # True
+print("Hello\n".isprintable()) # False (due to \n)
+
+#quick quiz
+ variable='''       1    #using multiline string          
+     2 3
+   4 5 6
+ 7 8 9 10''' 
+ print(variable)
+
+print("       1")
+ print("     2 3")
+ print("   4 5 6")
+ print("7  8 9 10")
+
+#quick quiz
+ print("I I I I I")
+ print("    I    ")
+ print("    I    ")
+ print("    I    ")
+ print("I I I I I")
+ print("J J J J J")
+ print("    J    ")
+ print("    J    ")
+ print("J   J    ")
+ print("J J J    ")
+
 #count()
 text='banana'
 print(text.count("a"))
