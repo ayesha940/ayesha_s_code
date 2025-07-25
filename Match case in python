@@ -1,0 +1,47 @@
+#match case in python
+
+ x = int(input("enter the value of x:"))
+ match x:
+     case 0:
+         print("x is 0")
+     case 1:
+         print("x is 1")
+     case _ if x!=70:
+          print(x," is not 70")   
+     case _ if x!=60:
+          print(x,"is not 60")   
+     case _:
+          print(x)   
+
+ x=50
+ match x:
+     case 1:
+         print("x is 1")
+     case 2:
+         print("x is 2")
+     case _:
+         print (x)
+
+ x=int(input("enter the value"))
+ match x:
+     case _ if x>=90:
+          print("grade is A")
+     case _ if x>=80:
+         print("grade is B")
+     case _ if x>=70:
+         print("grade is C")
+     case _ if x>=60:
+         print("grade is D")    
+     case _:
+         print("better try next time")     
+
+ colour=input("enter the colour name")
+ match colour:
+     case _ if colour =="red":
+         print("stop the car")
+     case _ if colour == "yellow":
+         print("slow down")
+     case _ if colour == "green":
+         print("go")                     
+     case _:
+         print("invald")
