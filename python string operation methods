@@ -1,0 +1,116 @@
+# python string operations methods
+
+# lower()
+ text="MY Name is Ayesha"
+ print(text.lower())
+
+# upper()
+
+ text="Reading NOVEL is my favourite HOBBY"
+ print(text.upper())
+
+# find()
+
+ text="python programing"
+ print(text.find("thon"))
+ print(text.find("favourite"))
+
+# replace()
+ 
+ str="My name is ayesha"
+ print(str.replace("ayesha","Iqra"))
+
+# split()
+
+ text="apple banana cherry mango watermelon"
+ print(text.split())
+ text="apple,banana,cherry,mango,watermelon"
+ print(text.split(","))
+
+# capitalize()
+
+ str="python programing"
+ print(str.capitalize())
+
+# center()
+
+ text="python"
+ print(text.center(10,"-"))
+
+ word="mango is tasty"
+ print(word.center(20,"#"))
+
+# endswith()
+ 
+ text="ayesha"
+ print(text.endswith("a"))
+ print(text.endswith("h"))
+
+# index()
+
+str="i love python"
+ print(str.index("pyt"))
+ print(str.index("java"))    #value error found
+
+#count()
+
+ text='banana'
+ print(text.count("a"))
+ print(text.count("n"))
+ print(text.count("na"))
+
+#DIFFERENCE between find() and index()
+
+ str="my python"
+ print(str.find("py"))
+ print(str.find("love"))
+
+ print(str.index("tho"))
+ print(str.index("ayesha"))
+
+#isalnum()
+
+text="abc123 11abc"
+ print(text.isalnum()) 
+ text="abc 123" 
+ print(text.isalnum()) 
+
+#isalpha()
+
+text="abcd"
+ print(text.isalpha())
+ text="abcs123"
+ print(text.isalpha())
+ text="abc abc" 
+ print(text.isalpha())
+
+#islower()
+
+text='hello python'
+ print(text.islower())
+ text="Hello Pyhon"
+ print(text.islower())
+
+#isupper()
+
+ text='Hello Python'
+ print(text.isupper())
+ text='HELLO PYTHON'
+ print(text.isupper())
+
+#istitle()
+
+ text='Hello Python'
+ print(text.istitle())
+ text='hello python'
+ print(text.istitle())
+
+#SWAPCASE()
+
+ text="hello python"
+ print(text.swapcase())
+
+#isprintable()
+
+ print("Hello".isprintable())  # True
+ print("Hello\n".isprintable()) # False (due to \n)
