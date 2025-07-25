@@ -26,4 +26,4 @@
  elif mood=="angry":
      print("take a deep breath")
  else:
-     print("something mysterious is going on")    
+     print("something mysterious is going on")  
