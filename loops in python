@@ -1,0 +1,30 @@
+#for loop
+
+name="ayesha"
+for i in name:
+    print(i,end=",")    #output a,y,e,s,h,a
+    print(i,end="")      #output ayesha
+    print(i)              #output  each character in seperate line
+
+color=["red","green","blue"] 
+for color in color:
+     print(color) 
+     for i in color:
+       print(i) 
+
+name="PYTHON"
+for name in name:
+    print(name)
+
+for i in range(2,21,2):
+    print(i)
+
+fruit=["apple","banana","mango","cherry"]
+for fruit in fruit:
+    print(fruit)
+
+for i in range(0,10):
+    print(i+1)
+
+for i in range(5):
+  print("HELLO WORLD",end=",")
