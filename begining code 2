@@ -1,4 +1,51 @@
 #operation in python
+# a = 5
+# b = 10
+
+# if a < b and b < 20:
+#     print("true")
+
+# a=6
+# a*=4
+# print (a)   
+
+# a//=5
+# print(a)
+
+# a%=3
+# print(a)
+
+# z="python"
+# print(z)
+
+# f=35
+# c=(f-32)/1.8
+# print(c)
+
+# a=int(input("enter first number "))
+# b=int(input("enter second number"))
+# print(a+b)
+
+# mass=4
+# height=3
+# bmi=mass/height**2
+# print(bmi)
+
+# x=int(False)
+# print(x)
+
+# x=int(True)
+# print(x)
+
+# a="ayesha"
+# b="iqra"
+# print(a+b)
+
+# a=str("5")
+# print(a)
+
+# a=list("123")
+# print(a)
 
 #comparison operation
 a = 4
@@ -76,244 +123,3 @@ print(a)
 
 a=list("123")
 print(a)
-
-#strings in python
-
-name='ayesha'
-askim='she said,"i want to go with u"'
-askim1='she said,"i want to go withyou'
-askim2="she said,she wants to go with me"
-print(name)
-print(askim)
-print(askim1)
-print(askim2)
-
-#multiline string
-
-apple="""he said,"i want to go there",
-but apples were rotten,
-so he cannot eat."""
-print(apple)
-
-#accessing elements from the string
-
-name="mairatahir"
-print(name[5])
-print(name[7])
-
-#length of a string
-
-name="ayeshatahir"
-print(len(name))
-print("ayeshatahir is a",len(name),"character name")
-
-#string slicing
-
-vehical="parado"
-print(len(vehical))
-print(vehical[:5])
-print(vehical[2:5])
-print(vehical[:])
-print(vehical[4:])
-word="elephant"
-print(word[4:7])
-
-word="amazing"
-print(word[0:5])
-
-word="programing"
-print(word[2:8])
-
-#negitive index slicig
-
-name="harry"
-print(name[-4:-2])
-
-word="hellopython"
-print(word[-9:-4])
-
-#jump slicing
-
-word="Mango is good"
-print(len(word))
-print(word[0:13:2])
-
-word="pythonrocks"
-print(len(word))
-print(word[2:11:2])
-
-word="pythonrocks"
-print(len(word))
-print(word[1:11:2])
-
-word="python"
-print(word[::2])
-
-x="brilliant"
-print(x[::-2])
-
-word="ilovepython"
-print(word[1:5])
-
-#concatenation
-
-word="beautiful"
-print(word[1:4])
-print(word[5:6])
-print(word[7:8])
-vowels=word[1:4]+word[5:6]+word[7:8]
-print(vowels)
-
-#if else elif in python:
-
-x=15
-if x<10:
-    print("numbewr is less than 10")
-elif x<20:
-    print("number is between 10 and 19")
-else:
-    print("number is greater or more")   
-
-age=18
-if age==15:
-    print("you are not elligible for this job interview")
-elif age<18:
-    print("you are also not elligible for this job interview")
-elif age>=18:
-    print("congratulations you are elligible for job interview")
-else:
-    print("eligibility critera is 18 r above")
-            
-mood="angry"
-if mood=="happy":
-    print("spread good vibes")
-elif mood=="sad":
-    print("hugs for you")
-elif mood=="angry":
-    print("take a deep breath")
-else:
-    print("something mysterious is going on")    
-
-#python string operations 10 methods
-lower()
-text="MY Name is Ayesha"
-print(text.lower())
-
-#upper()
-text="Reading NOVEL is my favourite HOBBY"
-print(text.upper())
-
-#find()
-text="python programing"
-print(text.find("thon"))
-print(text.find("favourite"))
-
-#replace()
-str="My name is ayesha"
-print(str.replace("ayesha","Iqra"))
-
-#split()
-text="apple banana cherry mango watermelon"
-print(text.split())
-text="apple,banana,cherry,mango,watermelon"
-print(text.split(","))
-
-#capitalize()
-str="python programing"
-print(str.capitalize())
-
-#center()
-text="python"
-print(text.center(10,"-"))
-
-word="mango is tasty"
-print(word.center(20,"#"))
-
-#endswith()
-text="ayesha"
-print(text.endswith("a"))
-print(text.endswith("h"))
-
-#index()
-str="i love python"
-print(str.index("pyt"))
-print(str.index("java"))    #value error found
-
-#DIFFERENCE between find() and index()
-
- str="my python"
- print(str.find("py"))
- print(str.find("love"))
-
- print(str.index("tho"))
- print(str.index("ayesha"))
-
-#isalnum()
- text="abc123 11abc"
- print(text.isalnum()) 
- text="abc 123" 
- print(text.isalnum()) 
-
-#isalpha()
- text="abcd"
- print(text.isalpha())
- text="abcs123"
- print(text.isalpha())
- text="abc abc" 
- print(text.isalpha())
-
-#islower()
- text='hello python'
- print(text.islower())
- text="Hello Pyhon"
- print(text.islower())
-
-#isupper()
- text='Hello Python'
- print(text.isupper())
- text='HELLO PYTHON'
- print(text.isupper())
-
-#istitle()
- text='Hello Python'
- print(text.istitle())
- text='hello python'
- print(text.istitle())
-
-#SWAPCASE()
- text="hello python"
- print(text.swapcase())
-
-#isprintable()
-print("Hello".isprintable())  # True
-print("Hello\n".isprintable()) # False (due to \n)
-
-#quick quiz
- variable='''       1    #using multiline string          
-     2 3
-   4 5 6
- 7 8 9 10''' 
- print(variable)
-
-print("       1")
- print("     2 3")
- print("   4 5 6")
- print("7  8 9 10")
-
-#quick quiz
- print("I I I I I")
- print("    I    ")
- print("    I    ")
- print("    I    ")
- print("I I I I I")
- print("J J J J J")
- print("    J    ")
- print("    J    ")
- print("J   J    ")
- print("J J J    ")
-
-#count()
-text='banana'
-print(text.count("a"))
-print(text.count("n"))
-print(text.count("na"))
