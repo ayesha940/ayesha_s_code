@@ -1,0 +1,29 @@
+# if else elif in python:
+
+ x=15
+ if x<10:
+     print("numbewr is less than 10")
+ elif x<20:
+     print("number is between 10 and 19")
+ else:
+     print("number is greater or more")   
+
+ age=18
+ if age==15:
+     print("you are not elligible for this job interview")
+ elif age<18:
+     print("you are also not elligible for this job interview")
+ elif age>18:
+     print("congratulations you are elligible for job interview")
+ else:
+     print("eligibility critera is 18 r above")
+            
+ mood="angry"
+ if mood=="happy":
+     print("spread good vibes")
+ elif mood=="sad":
+     print("hugs for you")
+ elif mood=="angry":
+     print("take a deep breath")
+ else:
+     print("something mysterious is going on")    
